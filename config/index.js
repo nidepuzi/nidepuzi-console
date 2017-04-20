@@ -1,16 +1,16 @@
 module.exports = {
   production: {
-    apiHost: 'admin.xiaolumm.com',
+    apiHost: 'admin.nidepuzi.com',
     apiPort: 80,
     port: 7070,
   },
   staging: {
-    apiHost: 'staging.xiaolumeimei.com',
+    apiHost: 'staging.nidepuzi.com',
     apiPort: 80,
     port: 7070,
   },
   warden: {
-    apiHost: 'warden.xiaolumm.com',
+    apiHost: 'warden.nidepuzi.com',
     apiPort: 80,
     port: 7070,
   },
