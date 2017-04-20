@@ -1,0 +1,21 @@
+build:
+  image: node
+  commands:
+    - npm install
+    - npm run build:production
+cache:
+  mount:
+    - node_modules
+publish:
+  docker:
+    username: $$DOCKER_USERNAME
+    password: $$DOCKER_PASSWORD
+    email: $$DOCKER_EMAIL
+    registry: registry.aliyuncs.com
+    repo: ndpuz-img/ndpuzsys-ui
+    tag: console
+    file: Dockerfile
+    mirror: https://kpm1lqaf.mirror.aliyuncs.com
+    when:
+      branch: [staging,master]
+
