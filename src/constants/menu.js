@@ -66,7 +66,7 @@ export default [{
       external: true,
     },
     {
-      name: '小鹿妈妈',
+      name: '百夫长',
       link: '/admin/xiaolumm/',
       icon: 'star',
       external: true,
