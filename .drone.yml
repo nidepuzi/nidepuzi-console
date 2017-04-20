@@ -18,7 +18,4 @@ publish:
     mirror: https://kpm1lqaf.mirror.aliyuncs.com
     when:
       branch: [staging,master]
-<<<<<<< HEAD
-=======
 
->>>>>>> b9789f121bf1ed0f688c0d7f089709bc275b220b
