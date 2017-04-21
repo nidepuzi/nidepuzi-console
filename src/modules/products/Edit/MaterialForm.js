@@ -272,6 +272,7 @@ class Material extends Component {
   }
 
   generateInitial = (newProperties) => {
+    // initilal
     const initilal = {};
     each(newProperties, (property) => {
       if (property.name !== '尺码表') {
