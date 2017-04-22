@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'antd';
 
-import logo from './images/logo.png';
+import logo from './images/logo.jpg';
 
 import './index.less';
 
@@ -20,7 +20,7 @@ export class Header extends Component {
       <header className={`${prefixCls}`}>
         <Row type="flex">
           <Col span="3">
-            <div className={`${prefixCls}-logo`}><img src={logo} alt="小鹿美美" /></div>
+            <div className={`${prefixCls}-logo`}><img src={logo} alt="你的铺子" /></div>
           </Col>
         </Row>
       </header>
