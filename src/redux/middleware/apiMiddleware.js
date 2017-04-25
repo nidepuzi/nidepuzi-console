@@ -37,7 +37,7 @@ axios.defaults = assign(axios.defaults, {
 export const apiMiddleware = store => next => action => {
   if (action.url) {
     // console.log('start apiMiddleware');
-    // console.log(action);
+    // console.log('action', action);
     return next({
       type: action.type,
       payload: {
