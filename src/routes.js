@@ -13,6 +13,8 @@ import operationsRoutes from 'modules/operations/routes';
 import statisticsRoutes from 'modules/statistics/routes';
 import packageorderRoutes from 'modules/packageOrder/routes';
 
+import { Home } from 'modules/activity/Home';
+
 export default (
   <Route path="/" component={App}>
     {scheduleRoutes}
