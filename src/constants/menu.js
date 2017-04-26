@@ -96,6 +96,18 @@ export default [{
       icon: 'star',
       external: true,
     },
+    {
+      name: '商品参数',
+      link: '/admin/supplier/preferencepool/',
+      icon: 'star',
+      external: true,
+    },
+    {
+      name: '类目参数',
+      link: '/admin/supplier/categorypreference/',
+      icon: 'star',
+      external: true,
+    },
   ],
 }, {
   name: '订单管理',
