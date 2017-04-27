@@ -17,6 +17,12 @@ export default [{
       external: false,
     },
     {
+      name: 'App海报',
+      link: '/appbanners',
+      icon: 'star',
+      external: false,
+    },
+    {
       name: '九张图',
       link: '/ninepics',
       icon: 'pay-circle-o',
@@ -66,7 +72,7 @@ export default [{
       external: true,
     },
     {
-      name: '百夫长',
+      name: '小鹿妈妈',
       link: '/admin/xiaolumm/',
       icon: 'star',
       external: true,
