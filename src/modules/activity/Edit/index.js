@@ -34,6 +34,7 @@ class Editactivity extends Component {
   static propTypes = {
     prefixCls: React.PropTypes.string,
     location: React.PropTypes.any,
+    history: React.PropTypes.any,
     fetchActivity: React.PropTypes.func,
     fetchFilters: React.PropTypes.func,
     filters: React.PropTypes.object,
@@ -88,7 +89,8 @@ class Editactivity extends Component {
 
   componentWillReceiveProps(nextProps) {
     const { activity, filters } = nextProps;
-    if (activity && !activity.isLoading && activity.success && activity.updated) {
+
+    if (this.props.activity.isLoading && activity && !activity.isLoading && activity.success && activity.updated) {
       this.context.router.goBack();
     }
 
