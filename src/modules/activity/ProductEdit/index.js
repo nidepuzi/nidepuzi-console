@@ -77,7 +77,7 @@ class acpEdit extends Component {
 
   componentWillReceiveProps(nextProps) {
     const { activityProduct, filters, modelProduct } = nextProps;
-    if (activityProduct && !activityProduct.isLoading && activityProduct.success && activityProduct.updated) {
+    if (this.props.activityProduct.isLoading && activityProduct && !activityProduct.isLoading && activityProduct.success && activityProduct.updated) {
       this.context.router.goBack();
     }
 
