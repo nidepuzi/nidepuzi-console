@@ -9,6 +9,7 @@ import { imageUrlPrefixs } from 'constants';
 import { updateProduct } from 'redux/modules/supplyChain/product';
 import { updateMaterial } from 'redux/modules/supplyChain/material';
 import { createModelProduct, updateModelProduct, fetchModelProduct, setPictures } from 'redux/modules/products/modelProduct';
+import { fetchProduct } from 'redux/modules/products/stockProduct';
 const actionCreators = {
   updateProduct,
   updateMaterial,
@@ -202,7 +203,7 @@ class Pictures extends Component {
     }
     if (modelProduct.success && !isEmpty(modelProduct.respectiveImgs)) {
       map(modelProduct.respectiveImgs, (value, key) => {
-        if (this.state.respectiveKeys.indexOf(key) < 0) {
+        if (this.state.respectiveKeys.indexOf(key) < 0 && value !== '') {
           getFieldProps(key);
           setFieldsInitialValue({
             [key]: [{
