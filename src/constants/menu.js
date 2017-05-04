@@ -72,7 +72,7 @@ export default [{
       external: true,
     },
     {
-      name: '小鹿妈妈',
+      name: '你的铺子会员',
       link: '/admin/xiaolumm/',
       icon: 'star',
       external: true,
