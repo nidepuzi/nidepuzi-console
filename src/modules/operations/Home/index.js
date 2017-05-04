@@ -18,15 +18,15 @@ class Panes extends TabPane {
   render() {
   return (<div>
     <Tabs defaultActiveKey="1" onChange={callback}>
-      <TabPane tab="小鹿妈妈" key="1">
+      <TabPane tab="你的铺子会员" key="1">
         <div>
           <h2>
-            <Link to="operations/changemmupper" >更改上级妈妈</Link>
+            <Link to="operations/changemmupper" >更改上级会员</Link>
           </h2>
         </div>
         <div>
           <h2>
-            <Link to="operations/giftxiaolucoin" >赠送小鹿币</Link>
+            <Link to="operations/giftxiaolucoin" >赠送币</Link>
           </h2>
         </div>
       </TabPane>
