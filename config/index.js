@@ -1,16 +1,16 @@
 module.exports = {
   production: {
-    apiHost: 'admin.nidepuzi.com',
+    apiHost: 'admin.hongguotang.com',
     apiPort: 80,
     port: 7070,
   },
   staging: {
-    apiHost: 'staging.nidepuzi.com',
+    apiHost: 'staging.hongguotang.com',
     apiPort: 80,
     port: 7070,
   },
   warden: {
-    apiHost: 'warden.nidepuzi.com',
+    apiHost: 'warden.hongguotang.com',
     apiPort: 80,
     port: 7070,
   },

@@ -1,4 +1,4 @@
-xlmm-mall
+nidepuzi/nidepuzi-console
 _______________________
 
 [![Build Status](http://git.xiaolumm.com:8000/api/badges/XLMM-FE/xlmm-console/status.svg)](http://git.xiaolumm.com:8000/XLMM-FE/xlmm-console)
@@ -63,6 +63,15 @@ $ sudo apt-get install -y nodejs
 $ npm install babel-eslint -g
 $ npm install eslint -g
 $ npm install
+#######################
+# for macos
+a. brew update
+- [update](https://www.jianshu.com/p/22820319f71b)
+$ brew update
+b. yern update
+- [yarn](https://yarn.bootcss.com/docs/usage/)
+$ yarn update
+# endfor macos
 ```
 
 ## Development
